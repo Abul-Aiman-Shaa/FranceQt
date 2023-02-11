@@ -17,12 +17,12 @@ def main():
     name_input = browser.find_element(by=By.ID, value="mat-input-0")
     name_input.send_keys(Keys.ENTER)
     time.sleep(1)
-    name_input.send_keys("aimanshaay3k@gmail.com")
+    name_input.send_keys("xxxxxxxxxxx@gmail.com")
 
     password_input = browser.find_element(by=By.ID, value="mat-input-1")
     password_input.send_keys(Keys.ENTER)
     time.sleep(1)
-    password_input.send_keys("Classicshadx0$")
+    password_input.send_keys("#############")
 
     cookie = browser.find_element(by=By.ID, value="onetrust-accept-btn-handler")
     cookie.click() # (419, 500)
